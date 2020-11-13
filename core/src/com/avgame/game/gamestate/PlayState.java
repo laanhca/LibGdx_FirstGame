@@ -125,10 +125,6 @@ public class PlayState extends GameState {
         //updtae player
         player.update(dt);
         if(player.isDead()){
-//            if(player.getLives() == 0) {
-                //Jukebox.stopAll();
-//                Save.gd.setTenativeScore(player.getScore());
-//                gsm.setState(GameStateManager.GAMEOVER);
             player.reset();
             player.loseLife();
             return;

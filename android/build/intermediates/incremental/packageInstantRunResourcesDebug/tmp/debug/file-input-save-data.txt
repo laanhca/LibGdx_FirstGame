@@ -1,26 +1,33 @@
 #Internal package file, do not edit.
-#Fri Nov 13 19:14:23 ICT 2020
+#Fri Nov 13 21:53:30 ICT 2020
 3.set=ASSET
+8.base=E\:\\Learning\\libGDX\\LearnLibGdx\\android\\build\\intermediates\\merged_assets\\debug\\out
 3.path=sounds/explode.ogg
 2.base=E\:\\Learning\\libGDX\\LearnLibGdx\\android\\build\\intermediates\\merged_assets\\debug\\out
 0.path=sounds/amadeuslegendary.ogg
+8.set=ASSET
+9.baseType=DIRECTORY
 5.base=E\:\\Learning\\libGDX\\LearnLibGdx\\android\\build\\intermediates\\merged_assets\\debug\\out
 6.baseType=DIRECTORY
 0.base=E\:\\Learning\\libGDX\\LearnLibGdx\\android\\build\\intermediates\\merged_assets\\debug\\out
 3.base=E\:\\Learning\\libGDX\\LearnLibGdx\\android\\build\\intermediates\\merged_assets\\debug\\out
 6.base=E\:\\Learning\\libGDX\\LearnLibGdx\\android\\build\\intermediates\\merged_assets\\debug\\out
 5.path=badlogic.jpg
+9.set=ASSET
 3.baseType=DIRECTORY
+8.path=sounds/thruster.ogg
 1.path=sounds/shoot.ogg
 4.set=ASSET
 0.baseType=DIRECTORY
+9.base=E\:\\Learning\\libGDX\\LearnLibGdx\\android\\build\\intermediates\\merged_assets\\debug\\out
 0.set=ASSET
 5.baseType=DIRECTORY
+8.baseType=DIRECTORY
 6.set=ASSET
 4.path=fonts/Hyperspace Bold.ttf
-count=8
+count=10
 5.set=ASSET
-7.path=sounds/thruster.ogg
+7.path=imgs/bggalaxy.png
 1.set=ASSET
 2.path=fonts/Amatic-Bold.ttf
 2.baseType=DIRECTORY
@@ -30,6 +37,7 @@ count=8
 7.set=ASSET
 7.base=E\:\\Learning\\libGDX\\LearnLibGdx\\android\\build\\intermediates\\merged_assets\\debug\\out
 4.base=E\:\\Learning\\libGDX\\LearnLibGdx\\android\\build\\intermediates\\merged_assets\\debug\\out
+9.path=imgs/bg.png
 1.base=E\:\\Learning\\libGDX\\LearnLibGdx\\android\\build\\intermediates\\merged_assets\\debug\\out
 4.baseType=DIRECTORY
 6.path=sounds/extralife.ogg

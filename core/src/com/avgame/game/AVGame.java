@@ -21,7 +21,10 @@ public class AVGame extends ApplicationAdapter {
 	@Override
 	public void create () {
 		G_WIDTH= Gdx.graphics.getWidth();
+
+
 		G_HEIGHT =Gdx.graphics.getHeight();
+
 //		batch = new SpriteBatch();
 //		img = new Texture("badlogic.jpg");
 		cam = new OrthographicCamera(G_WIDTH,G_HEIGHT);
@@ -37,7 +40,6 @@ public class AVGame extends ApplicationAdapter {
 		JukeBox.loadSound("sounds/explode.ogg","explode");
 		JukeBox.loadSound("sounds/extralife.ogg","extralife");
 		JukeBox.loadSound("sounds/thruster.ogg","thruster");
-		//JukeBox.loadSound("sounds/amadeuslegendary.ogg","bgSound");
 }
 
 	@Override
