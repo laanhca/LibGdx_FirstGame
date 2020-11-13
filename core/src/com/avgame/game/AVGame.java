@@ -3,6 +3,7 @@ package com.avgame.game;
 import com.avgame.game.managers.GameInputProcessor;
 import com.avgame.game.managers.GameKeys;
 import com.avgame.game.managers.GameStateManager;
+import com.avgame.game.managers.JukeBox;
 import com.badlogic.gdx.*;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
@@ -30,6 +31,12 @@ public class AVGame extends ApplicationAdapter {
 		cam.update();
 		Gdx.input.setInputProcessor(new GameInputProcessor());
 		gsm= new GameStateManager();
+
+		//load sound
+		JukeBox.loadSound("sounds/shoot.ogg","shoot");
+		JukeBox.loadSound("sounds/explode.ogg","explode");
+		JukeBox.loadSound("sounds/extralife.ogg","extralife");
+		JukeBox.loadSound("sounds/thruster.ogg","thruster");
 }
 
 	@Override

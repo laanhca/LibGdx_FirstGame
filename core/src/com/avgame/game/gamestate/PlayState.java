@@ -7,6 +7,7 @@ import com.avgame.game.entities.Particle;
 import com.avgame.game.entities.Player;
 import com.avgame.game.managers.GameKeys;
 import com.avgame.game.managers.GameStateManager;
+import com.avgame.game.managers.JukeBox;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
@@ -169,10 +170,10 @@ public class PlayState extends GameState {
                 if(a.intersects(player)) {
                     player.hit();
                     asteroids.remove(i);
+                    JukeBox.playSound("explode");
                     i--;
                     splitAsteroids(a);
 
-                    //Jukebox.play("explode");
                     break;
                 }
             }
@@ -190,7 +191,7 @@ public class PlayState extends GameState {
                     splitAsteroids(a);
                     //player score
                     player.incrementScore(a.getScore());
-                    //Jukebox.play("explode");
+                    JukeBox.playSound("explode");
                     break;
                 }
             }

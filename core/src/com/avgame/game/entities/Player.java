@@ -1,6 +1,7 @@
 package com.avgame.game.entities;
 
 import com.avgame.game.AVGame;
+import com.avgame.game.managers.JukeBox;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.math.MathUtils;
 import com.sun.scenario.effect.impl.prism.PrRenderInfo;
@@ -64,7 +65,7 @@ public class Player extends SpaceOject {
 
         score=0;
         extraLives= 3;
-        requiredScore = 10000;
+        requiredScore = 1000;
 
     }
     public void reset() {
@@ -90,6 +91,7 @@ public class Player extends SpaceOject {
     public boolean isDead(){return dead;}
     public void shoot(){
         if(bullets.size() == MAX_BULLETS) return;
+        JukeBox.playSound("shoot");
         bullets.add(new Bullet(x, y, radians));
 
     }
@@ -170,11 +172,17 @@ public class Player extends SpaceOject {
 
     public void setUp(boolean b) {
         //System.out.println("up"+b);
+        if(b && !up && !hit){
+            JukeBox.loopSound("thruster");
+        } else if(!b){
+            JukeBox.stopSound("thruster");
+        }
         up = b;
     }
 
     public void update(float dt) {
         if(hit) {
+            JukeBox.stopAllSound();
             hitTimer += dt;
             if(hitTimer > hitTime) {
                 dead = true;
@@ -192,8 +200,9 @@ public class Player extends SpaceOject {
         }
         //check extraLives
         if(score>= requiredScore){
+            JukeBox.playSound("extralife");
             extraLives++;
-            requiredScore+= 10000;
+            requiredScore+= requiredScore  ;
 
         }
         //quay
