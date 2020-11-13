@@ -196,6 +196,10 @@ public class PlayState extends GameState {
                 }
             }
         }
+        //check end
+        if(player.getExtraLives()<0){
+            gsm.setState(0);
+        }
     }
 
     @Override
@@ -218,7 +222,7 @@ public class PlayState extends GameState {
         sb.setColor(1,1,1,1);
         sb.begin();
         font.draw(sb,Long.toString(player.getScore()),10,AVGame.G_HEIGHT-10);
-        font.draw(sb,Long.toString(player.getExtraLives()),AVGame.G_WIDTH-20,AVGame.G_HEIGHT-10);
+        font.draw(sb,Long.toString(player.getExtraLives()),AVGame.G_WIDTH-50,AVGame.G_HEIGHT-10);
         sb.end();
     }
 
@@ -236,6 +240,8 @@ public class PlayState extends GameState {
 
     @Override
     public void dispose() {
-
+        sr.dispose();
+        sb.dispose();
+        JukeBox.disposeAllSound();
     }
 }

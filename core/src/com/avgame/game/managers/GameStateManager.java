@@ -1,6 +1,7 @@
 package com.avgame.game.managers;
 
 import com.avgame.game.gamestate.GameState;
+import com.avgame.game.gamestate.MenuState;
 import com.avgame.game.gamestate.PlayState;
 
 public class GameStateManager {
@@ -9,13 +10,13 @@ public class GameStateManager {
     //màn chơi hiện tại
     private GameState gameState;
     public GameStateManager(){
-        setState(PLAY);
+        setState(MENU);
     }
     public void setState(int state){
         if(gameState!=null) gameState.dispose();
         if(state==MENU){
             //chuyển sang màn menu
-            //gameState = new MenuState(this);
+            gameState = new MenuState(this);
         }
         if(state==PLAY){
             //chuyển sang màn chơi

@@ -1,7 +1,35 @@
 #Internal package file, do not edit.
-#Fri Nov 13 13:47:27 ICT 2020
+#Fri Nov 13 19:14:23 ICT 2020
+3.set=ASSET
+3.path=sounds/explode.ogg
+2.base=E\:\\Learning\\libGDX\\LearnLibGdx\\android\\build\\intermediates\\merged_assets\\debug\\out
+0.path=sounds/amadeuslegendary.ogg
+5.base=E\:\\Learning\\libGDX\\LearnLibGdx\\android\\build\\intermediates\\merged_assets\\debug\\out
+6.baseType=DIRECTORY
 0.base=E\:\\Learning\\libGDX\\LearnLibGdx\\android\\build\\intermediates\\merged_assets\\debug\\out
-0.path=badlogic.jpg
-count=1
+3.base=E\:\\Learning\\libGDX\\LearnLibGdx\\android\\build\\intermediates\\merged_assets\\debug\\out
+6.base=E\:\\Learning\\libGDX\\LearnLibGdx\\android\\build\\intermediates\\merged_assets\\debug\\out
+5.path=badlogic.jpg
+3.baseType=DIRECTORY
+1.path=sounds/shoot.ogg
+4.set=ASSET
 0.baseType=DIRECTORY
 0.set=ASSET
+5.baseType=DIRECTORY
+6.set=ASSET
+4.path=fonts/Hyperspace Bold.ttf
+count=8
+5.set=ASSET
+7.path=sounds/thruster.ogg
+1.set=ASSET
+2.path=fonts/Amatic-Bold.ttf
+2.baseType=DIRECTORY
+2.set=ASSET
+7.baseType=DIRECTORY
+1.baseType=DIRECTORY
+7.set=ASSET
+7.base=E\:\\Learning\\libGDX\\LearnLibGdx\\android\\build\\intermediates\\merged_assets\\debug\\out
+4.base=E\:\\Learning\\libGDX\\LearnLibGdx\\android\\build\\intermediates\\merged_assets\\debug\\out
+1.base=E\:\\Learning\\libGDX\\LearnLibGdx\\android\\build\\intermediates\\merged_assets\\debug\\out
+4.baseType=DIRECTORY
+6.path=sounds/extralife.ogg

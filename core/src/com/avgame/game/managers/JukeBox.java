@@ -23,6 +23,11 @@ public class JukeBox {
     public static void stopSound(String name){
         sounds.get(name).stop();
     }
+    public static void disposeAllSound(){
+        for(Sound s:sounds.values()){
+            s.dispose();
+        }
+    }
     public static void stopAllSound(){
         for(Sound s:sounds.values()){
             s.stop();

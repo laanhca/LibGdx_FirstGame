@@ -37,13 +37,15 @@ public class AVGame extends ApplicationAdapter {
 		JukeBox.loadSound("sounds/explode.ogg","explode");
 		JukeBox.loadSound("sounds/extralife.ogg","extralife");
 		JukeBox.loadSound("sounds/thruster.ogg","thruster");
+		//JukeBox.loadSound("sounds/amadeuslegendary.ogg","bgSound");
 }
 
 	@Override
 	public void render () {
 //test gamekeys
+
 //		if(Gdx.input.isKeyPressed(Input.Keys.SPACE)){
-//			System.out.println("SPACE");
+//			gsm.setState(1);
 //		}
 
 

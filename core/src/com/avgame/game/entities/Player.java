@@ -205,6 +205,7 @@ public class Player extends SpaceOject {
             requiredScore+= requiredScore  ;
 
         }
+
         //quay
         if (left) {
             radians += rotationSpeed * dt;

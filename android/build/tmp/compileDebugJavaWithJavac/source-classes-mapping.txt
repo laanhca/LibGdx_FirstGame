@@ -1,10 +1,10 @@
-com/avgame/game/AndroidLauncher.java
- com.avgame.game.AndroidLauncher
-com/avgame/game/BuildConfig.java
- com.avgame.game.BuildConfig
 com/avgame/game/R.java
  com.avgame.game.R
  com.avgame.game.R$color
  com.avgame.game.R$drawable
  com.avgame.game.R$string
  com.avgame.game.R$style
+com/avgame/game/BuildConfig.java
+ com.avgame.game.BuildConfig
+com/avgame/game/AndroidLauncher.java
+ com.avgame.game.AndroidLauncher
