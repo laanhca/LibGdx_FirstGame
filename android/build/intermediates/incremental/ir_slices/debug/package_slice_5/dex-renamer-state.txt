@@ -1,0 +1,4 @@
+#Fri Nov 13 13:47:33 ICT 2020
+base.0=E\:\\Learning\\libGDX\\LearnLibGdx\\android\\build\\intermediates\\transforms\\dexMerger\\debug\\5
+renamed.0=classes.dex
+path.0=classes.dex

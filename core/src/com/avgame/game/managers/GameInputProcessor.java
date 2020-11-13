@@ -12,60 +12,58 @@ public class GameInputProcessor extends InputAdapter { //có thể implement tr�
 //    static {
 //        System.out.println("load GameInput");
 //    }
-    @Override
-    public boolean keyDown(int keycode) {
-        if (keycode == Input.Keys.LEFT) {
-            GameKeys.setKey(GameKeys.LEFT, true);
-        }
-        if (keycode == Input.Keys.RIGHT) {
-            GameKeys.setKey(GameKeys.RIGHT, true);
-        }
-        if (keycode == Input.Keys.UP) {
+    public boolean keyDown(int k) {
+        if(k == Input.Keys.UP) {
             GameKeys.setKey(GameKeys.UP, true);
         }
-        if (keycode == Input.Keys.DOWN) {
+        if(k == Input.Keys.LEFT) {
+            GameKeys.setKey(GameKeys.LEFT, true);
+        }
+        if(k == Input.Keys.DOWN) {
             GameKeys.setKey(GameKeys.DOWN, true);
         }
-        if (keycode == Input.Keys.ENTER) {
+        if(k == Input.Keys.RIGHT) {
+            GameKeys.setKey(GameKeys.RIGHT, true);
+        }
+        if(k == Input.Keys.ENTER) {
             GameKeys.setKey(GameKeys.ENTER, true);
         }
-        if (keycode == Input.Keys.SHIFT_LEFT) {
-            GameKeys.setKey(GameKeys.SHIFT, true);
+        if(k == Input.Keys.ESCAPE) {
+            GameKeys.setKey(GameKeys.ESCAPE, true);
         }
-        if (keycode == Input.Keys.SPACE) {
+        if(k == Input.Keys.SPACE) {
             GameKeys.setKey(GameKeys.SPACE, true);
         }
-        if (keycode == Input.Keys.TAB) {
-            GameKeys.setKey(GameKeys.TAB, true);
+        if(k == Input.Keys.SHIFT_LEFT || k == Input.Keys.SHIFT_RIGHT) {
+            GameKeys.setKey(GameKeys.SHIFT, true);
         }
         return true;
     }
 
-    @Override
-    public boolean keyUp(int keycode) {
-        if (keycode == Input.Keys.LEFT) {
-            GameKeys.setKey(GameKeys.LEFT, false);
-        }
-        if (keycode == Input.Keys.RIGHT) {
-            GameKeys.setKey(GameKeys.RIGHT, false);
-        }
-        if (keycode == Input.Keys.UP) {
+    public boolean keyUp(int k) {
+        if(k == Input.Keys.UP) {
             GameKeys.setKey(GameKeys.UP, false);
         }
-        if (keycode == Input.Keys.DOWN) {
+        if(k == Input.Keys.LEFT) {
+            GameKeys.setKey(GameKeys.LEFT, false);
+        }
+        if(k == Input.Keys.DOWN) {
             GameKeys.setKey(GameKeys.DOWN, false);
         }
-        if (keycode == Input.Keys.ENTER) {
+        if(k == Input.Keys.RIGHT) {
+            GameKeys.setKey(GameKeys.RIGHT, false);
+        }
+        if(k == Input.Keys.ENTER) {
             GameKeys.setKey(GameKeys.ENTER, false);
         }
-        if (keycode == Input.Keys.SHIFT_LEFT) {
-            GameKeys.setKey(GameKeys.SHIFT, false);
+        if(k == Input.Keys.ESCAPE) {
+            GameKeys.setKey(GameKeys.ESCAPE, false);
         }
-        if (keycode == Input.Keys.SPACE) {
+        if(k == Input.Keys.SPACE) {
             GameKeys.setKey(GameKeys.SPACE, false);
         }
-        if (keycode == Input.Keys.TAB) {
-            GameKeys.setKey(GameKeys.TAB, false);
+        if(k == Input.Keys.SHIFT_LEFT || k == Input.Keys.SHIFT_RIGHT) {
+            GameKeys.setKey(GameKeys.SHIFT, false);
         }
         return true;
     }

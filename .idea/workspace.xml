@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9bbdf40f-b690-4f8e-9591-83f460bcbf02" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/android/assets/fonts/Hyperspace Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/avgame/game/entities/Asteroid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/avgame/game/entities/Particle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/avgame/game/managers/JukeBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/avgame/game/AVGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/avgame/game/AVGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/avgame/game/entities/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/avgame/game/entities/Bullet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/avgame/game/entities/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/avgame/game/entities/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/avgame/game/entities/SpaceOject.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/avgame/game/entities/SpaceOject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/avgame/game/gamestate/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/avgame/game/gamestate/GameState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/avgame/game/gamestate/PlayState.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/avgame/game/gamestate/PlayState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/avgame/game/managers/GameInputProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/avgame/game/managers/GameInputProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/avgame/game/managers/GameKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/avgame/game/managers/GameKeys.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jx7X5uCBL91lKXKZt6rubCRcBm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="device.picker.selection" value="Pixel_2_API_24" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/android/assets/fonts" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Learning\libGDX\LearnLibGdx\android\assets\fonts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Learning\libGDX\LearnLibGdx\android\assets\fonts" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.avgame.game.entities" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.DesktopRun">
+    <configuration default="true" type="AndroidJUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="android" type="AndroidRunConfigurationType" activateToolWindowBeforeRun="false">
+      <module name="android" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Java />
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DesktopRun" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.avgame.game.desktop.DesktopLauncher" />
+      <module name="desktop" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/android/assets" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9bbdf40f-b690-4f8e-9591-83f460bcbf02" name="Default Changelist" comment="" />
+      <created>1604733925536</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604733925536</updated>
+      <workItem from="1604733930538" duration="181000" />
+      <workItem from="1604734128540" duration="17551000" />
+      <workItem from="1604783793616" duration="18963000" />
+      <workItem from="1604909605718" duration="19114000" />
+      <workItem from="1605077529351" duration="24288000" />
+      <workItem from="1605253810020" duration="3184000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/com/avgame/game/AVGame.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,2 @@
+com/avgame/game/desktop/DesktopLauncher.java
+ com.avgame.game.desktop.DesktopLauncher

@@ -2,7 +2,8 @@ package com.avgame.game.gamestate;
 
 import com.avgame.game.managers.GameStateManager;
 
-public abstract class GameState  {
+public abstract class
+GameState  {
     protected GameStateManager gsm;
     public GameState(GameStateManager gsm){
         this.gsm = gsm;
